@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* Tailwind ke base, components aur utilities load kar rahe hain */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Poori website ka background dark gradient set kar rahe hain */
+body {
+  background: linear-gradient(135deg, #070605, #15110d, #0b0908);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+/* Scrollbar ko custom style de rahe hain */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 119, 6, 0.4);
+  border-radius: 4px;
+}
+
+/* Glass card ka reusable style — frosted glass effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+/* Gradient text ke liye reusable class */
+.gradient-text {
+  background: linear-gradient(90deg, #dfba6b, #f5e2b3, #c5a059);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

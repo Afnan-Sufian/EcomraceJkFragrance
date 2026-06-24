@@ -1,18 +1,30 @@
 # EcomraceJkFragrance
 
-# React + Vite
+A premium, modern e-commerce web application for **Jk Fragrances**, built with React, Vite, and Tailwind CSS. This application showcases a sophisticated collection of oriental ouds, floral scents, and fresh fragrances with interactive elements and smooth user flows.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
+- **Premium Design**: Modern typography, harmonious color palette, and micro-animations.
+- **Product Collections**: Explores categories like Oud Collections, Men's Collection, and Women's Collection.
+- **Interactive Shopping Cart**: Add, remove, and adjust item quantities with instant subtotal calculations.
+- **Seamless Navigation**: Built with React Router for smooth transitions.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Frontend Framework**: React 19 (Vite-powered)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Animations**: Framer Motion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js installed on your machine.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation & Run
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```

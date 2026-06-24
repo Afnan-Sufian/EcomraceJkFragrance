@@ -2,6 +2,7 @@
   "name": "ecomrace",
   "private": true,
   "version": "0.0.0",
+  "description": "A premium e-commerce web application for Jk Fragrance built with React, Vite, and Tailwind CSS.",
   "type": "module",
   "scripts": {
     "dev": "vite",
